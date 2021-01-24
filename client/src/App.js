@@ -1,4 +1,6 @@
-import logo from './logo.svg';
+import pelota from './pelota.png'
+import diegote from './diegote.png'
+
 import './App.css';
 import { useState } from 'react';
 
@@ -32,7 +34,9 @@ function App() {
     return (
         <div className="App">
             <header className="App-header">
-                <img src={logo} className="App-logo" alt="logo" />
+                <img src={pelota} className="App-logo"/>
+                <img src={diegote} className="diegote" />
+
                 <input type="text" name="name" onChange={(event) => setMsg(event.target.value) }/>
                 <button onClick={click} >Diegoo3o</button>
                 <p>{response}</p>

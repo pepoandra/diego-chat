@@ -3,13 +3,19 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
   pointer-events: none;
+  backgroundColor: '#00000000'
+}
+.diegote {
+
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 5s linear;
   }
 }
 
