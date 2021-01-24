@@ -38,7 +38,7 @@ function App() {
                 <img src={diegote} className="diegote" />
 
                 <input type="text" name="name" onChange={(event) => setMsg(event.target.value) }/>
-                <button onClick={click} >Diegoo3o</button>
+                <button onClick={click} >Hablale al Diegote</button>
                 <p>{response}</p>
             </header>
         </div>
