@@ -48,7 +48,6 @@ readFiles( 'textos')
     let previousWord = '';
     const arr = data.split(' ');
     for(var i = 0; i < arr.length; i++ ){
-        console.log(previousWord)
         if(Object.keys(dict).includes(`${previousWord}-${arr[i]}`)){
             dict[`${previousWord}-${arr[i]}`] += 1;
         } else if(previousWord !== '' && arr[i] !== '') {
