@@ -45,16 +45,16 @@ readFiles( 'textos')
     files.forEach( (item, index) => {
         data += ` ${item.contents.normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(puntuacion, '').replace('"', '').replace(multipleSpaces, ' ')}`
     });
-    console.log(data);
     let previousWord = '';
     const arr = data.split(' ');
     for(var i = 0; i < arr.length; i++ ){
-        console.log(arr[i])
+        console.log(previousWord)
         if(Object.keys(dict).includes(`${previousWord}-${arr[i]}`)){
             dict[`${previousWord}-${arr[i]}`] += 1;
         } else if(previousWord !== '' && arr[i] !== '') {
             dict[`${previousWord}-${arr[i]}`] = 1;
-        } else if(arr[i] !== '') {
+        }
+        if(arr[i] !== '') {
             previousWord = arr[i];
         }
     }

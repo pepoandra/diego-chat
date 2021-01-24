@@ -9,6 +9,12 @@ Front-end para chatear con el Diegote.
 
 Esto es un front-end usando `create-react-app` que tiene solamente una view que muestra al Diego haciendo girar una pelota & tiene un textbox para hablarle al Diegote.
 
+### Como instalar
+Vos metele
+> npm install
+
+y sos vos con un frontend
+
 ### Como correr
 
 Todo lo que hay que hacer para arrancar el cliente es 

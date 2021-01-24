@@ -12,6 +12,12 @@ El endpoint toma un mensaje como parametro & devuelve las sabias palabras del Di
 
 Basicamente, esto es un chatbot que se entrena leyendo textos `.txt` que esten en la carpeta `textos`. 
 
+### Como instalar
+Vos metele
+> npm install
+
+y sos vos con un backend
+
 ### Como correr
 
 Todo lo que hay que hacer para arrancar el servidor es 
